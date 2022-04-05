@@ -1,0 +1,69 @@
+.container {
+    background-color: rgb(250, 240, 230);
+    padding-top: 2rem;
+    padding-left: 30px;
+}
+
+mat-card-title {
+    color: #EF8080;
+}
+
+.mat-wiki-icon {
+    color: #FF4081;
+}
+
+.mat-video-icon {
+    color: #EF8080;
+}
+
+.mat-article-icon {
+    color: #4050B5;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+.right {
+    display: inline-block;
+    line-height: 1.6;
+    margin-left: 100px;
+}
+
+.goBack {
+  background-color: #EF8080;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 30px;
+}
+
+.goBack:hover,
+.goBack:focus {
+  background-color: #FF4081;
+}
+
+
+
+
+

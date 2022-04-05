@@ -1,0 +1,27 @@
+<h1> SpaceX Mission Details </h1>
+
+<div  class="container">
+    <img src="{{mission.links.mission_patch_small}}">
+    <div class="right">
+    <mat-card-title class="title" >Mission - {{mission.mission_name}}</mat-card-title><br/>
+    <mat-card-header>Name:</mat-card-header> {{mission.mission_name}} <br/>
+    <mat-card-header>Launch Year:</mat-card-header> {{mission.launch_year}}<br/>
+    
+    <mat-card-title >Rocket</mat-card-title><br/>
+    <mat-card-header>Name:</mat-card-header> {{mission.rocket.rocket_name}}<br/>
+    <mat-card-header>Type:</mat-card-header> {{mission.rocket.rocket_type}}<br/>
+    
+    <mat-card-title >Launch Site</mat-card-title><br/>
+    <mat-card-header>Name:</mat-card-header> {{mission.launch_site.site_name_long}}<br/>
+</div>
+<br>
+    <mat-card-title>Launch Details: </mat-card-title>
+    <mat-card-content >{{mission.details}}</mat-card-content>
+    <br>
+    <mat-card-title >More Info On Launch Details</mat-card-title><br/>
+    <a href="{{mission.links.article_link}}"><mat-icon class="mat-article-icon">assignment</mat-icon></a>
+    <a href="{{mission.links.wikipedia}}"><mat-icon class="mat-wiki-icon">public</mat-icon></a>
+    <a href="{{mission.links.video_link}}"><mat-icon class="mat-video-icon">videocam</mat-icon></a>
+</div>
+
+<button class="goBack" (click)="goBack();">Go Back</button>
